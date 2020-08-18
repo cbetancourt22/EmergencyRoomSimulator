@@ -1,3 +1,4 @@
+
 #include "Nurse.h" 
 Nurse::Nurse(){
 	busy = false;

@@ -9,7 +9,6 @@
 #include "doctor.h"
 #include "person.h"
 #include "Nurse.h"
-#include "Personnel.h"
 #include <cstdlib>
 #include <ctime>
 #include <vector>
@@ -101,8 +100,8 @@ void openFile(std::vector<std::string>* names)
 	std::string line;
 	std::ifstream FirstNamestxt;
 
-	FirstNamestxt.open(".\\\\data\\\\Residents_of_273ville.txt"); //visual studio code
-	//FirstNamestxt.open(".\\Residents_of_273ville.txt"); //visual studio 2019
+	//FirstNamestxt.open(".\\\\data\\\\Residents_of_273ville.txt"); //visual studio code
+	FirstNamestxt.open(".\\Residents_of_273ville.txt"); //visual studio 2019
 
 	if (FirstNamestxt.fail()) //if we get an error
 	{
